@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task Managment</title>
+    <link rel="shortcut icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/124/124772.png">
+    
+    <!-- Tailwind CSS Link -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">
+
+    <!-- Fontawesome Link -->
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+ 
+  </head>
+  <body class="bg-gray-200" >
+    <nav class="flex py-5 bg-green-500 text-white px-24">
+        <div class="w-1/2 px-12 mr-auto">
+        <!-- href is the name that browser will display in the url -->
+            <a href="/home" class="text-2x1 font-bold">My Application</a>
+        </div>
+
+        <ul class="w-1/2 px-16 ml-auto flex justify-end pt-1">
+            <li class="nav-item px-4"> 
+                <a href="/tasks" class="nav-link font-semibold hover:bg-green-700 py-3 px-4 rounder-md"> My tasks</a>
+            </li>
+            <li class="nav-item px-4"> 
+                <a href="/create" class="nav-link font-semibold border-2 border-white hover:text-green-700 hover:bg-white py-3 px-4 rounder-md"> Add task</a>
+            </li>
+        </ul>
+    </nav>
+  
+  {{{body}}}
+
+  </body>
+</html>
